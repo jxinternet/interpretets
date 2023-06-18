@@ -1,0 +1,109 @@
+[
+  {
+    "type": "print",
+    "value": "Hello, world!"
+  },
+  {
+    "type": "if",
+    "condition": true,
+    "trueBlock": [
+      {
+        "type": "print",
+        "value": "Condition is true!"
+      }
+    ],
+    "falseBlock": [
+      {
+        "type": "print",
+        "value": "Condition is false!"
+      }
+    ]
+  },
+  {
+    "type": "for",
+    "variable": "i",
+    "initialValue": 0,
+    "condition": "i < 5",
+    "increment": 1,
+    "block": [
+      {
+        "type": "print",
+        "value": "Iteration: "
+      },
+      {
+        "type": "print",
+        "value": "i"
+      }
+    ]
+  },
+  {
+    "type": "variableDeclaration",
+    "name": "x",
+    "dataType": "integer",
+    "value": 10
+  },
+  {
+    "type": "variableDeclaration",
+    "name": "y",
+    "dataType": "string",
+    "value": "hola"
+  },
+  {
+    "type": "assignment",
+    "variable": "x",
+    "value": 20
+  },
+  {
+    "type": "assignment",
+    "variable": "y",
+    "value": "adios"
+  },
+  {
+    "type": "while",
+    "condition": "x > 0",
+    "block": [
+      {
+        "type": "print",
+        "value": "x is greater than 0"
+      },
+      {
+        "type": "assignment",
+        "variable": "x",
+        "value": "x - 1"
+      }
+    ]
+  },
+  {
+    "type": "switch",
+    "condition": "y",
+    "cases": [
+      {
+        "value": "hola",
+        "block": [
+          {
+            "type": "print",
+            "value": "y is 'hola'"
+          }
+        ]
+      },
+      {
+        "value": "adios",
+        "block": [
+          {
+            "type": "print",
+            "value": "y is 'adios'"
+          }
+        ]
+      },
+      {
+        "value": "default",
+        "block": [
+          {
+            "type": "print",
+            "value": "y is neither 'hola' nor 'adios'"
+          }
+        ]
+      }
+    ]
+  }
+]
