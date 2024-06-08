@@ -1,4 +1,4 @@
-# interpretets
+# interpreters
 Ejercicio de interpretación de JavaScript aplicando TypeScript y JSON
 Un intérprete que recibe como entrada un archivo de texto que contiene varias sentencias, puede recibir,
 - Una funcion de impresion, que se denomina "Escribir();" el cual recibe como parametro una cadena (un numero, texto o una variable) y la imprime en consola
